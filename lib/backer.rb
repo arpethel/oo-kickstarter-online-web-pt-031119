@@ -20,6 +20,6 @@ class Backer
     # binding.pry
     @@backed_projects << project
     @@backed_projects
-    binding.pry
+    # binding.pry
   end
 end
