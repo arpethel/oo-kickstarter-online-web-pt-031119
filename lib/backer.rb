@@ -1,7 +1,7 @@
 require 'pry'
 
 class Backer
-
+  attr_accessor :project
 
   @@backed_projects = []
 
@@ -9,5 +9,5 @@ class Backer
     @@backed_projects << project
   end
 
-  def 
+  def
 end
