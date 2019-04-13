@@ -1,7 +1,7 @@
 require 'pry'
 
 class Project
-  attr_accessor :backer 
+  attr_accessor :backer
 
   @@backers = []
 
